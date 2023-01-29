@@ -16,13 +16,13 @@ actions:
 features:
   - title: SharePoint
     icon: "/assets/icon/sharepoint.png"
-    details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
+    details: Gatekeeper Technology SharePoint link. 
     link: https://gatekeepertech.sharepoint.com/_layouts/15/sharepoint.aspx?
 
-  - title: Slide page
+  - title: Venenatis urna
     icon: slides
-    details: Adding slide pages to display things you like
-    link: https://theme-hope.vuejs.press/guide/layout/slides.html
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    link: https://loremipsum.io/generator/?n=1&t=p
 
 copyright: false
 footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | Made by <a href="https://github.com/SHA1-un" target="_blank">SHA1-un</a>
