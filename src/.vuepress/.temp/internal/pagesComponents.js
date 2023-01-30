@@ -21,14 +21,14 @@ export const pagesComponents = {
   "v-2d0ad528": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d0ad528" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/zh/index.html.vue")),
   // path: /zh/slides.html
   "v-269ae70f": defineAsyncComponent(() => import(/* webpackChunkName: "v-269ae70f" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/zh/slides.html.vue")),
-  // path: /guide/foo/
-  "v-5d5821d6": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d5821d6" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/guide/foo/index.html.vue")),
-  // path: /guide/foo/ray.html
-  "v-0b6fc5f8": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b6fc5f8" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/guide/foo/ray.html.vue")),
   // path: /guide/bar/
   "v-5d5c2d30": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d5c2d30" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/guide/bar/index.html.vue")),
   // path: /guide/bar/baz.html
   "v-177e1f06": defineAsyncComponent(() => import(/* webpackChunkName: "v-177e1f06" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/guide/bar/baz.html.vue")),
+  // path: /guide/foo/
+  "v-5d5821d6": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d5821d6" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/guide/foo/index.html.vue")),
+  // path: /guide/foo/ray.html
+  "v-0b6fc5f8": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b6fc5f8" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/guide/foo/ray.html.vue")),
   // path: /zh/demo/
   "v-2b64e284": defineAsyncComponent(() => import(/* webpackChunkName: "v-2b64e284" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/zh/demo/index.html.vue")),
   // path: /zh/demo/disable.html

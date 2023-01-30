@@ -19,14 +19,14 @@ export const pagesData = {
   "v-2d0ad528": () => import(/* webpackChunkName: "v-2d0ad528" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/zh/index.html.js").then(({ data }) => data),
   // path: /zh/slides.html
   "v-269ae70f": () => import(/* webpackChunkName: "v-269ae70f" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/zh/slides.html.js").then(({ data }) => data),
-  // path: /guide/foo/
-  "v-5d5821d6": () => import(/* webpackChunkName: "v-5d5821d6" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/guide/foo/index.html.js").then(({ data }) => data),
-  // path: /guide/foo/ray.html
-  "v-0b6fc5f8": () => import(/* webpackChunkName: "v-0b6fc5f8" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/guide/foo/ray.html.js").then(({ data }) => data),
   // path: /guide/bar/
   "v-5d5c2d30": () => import(/* webpackChunkName: "v-5d5c2d30" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/guide/bar/index.html.js").then(({ data }) => data),
   // path: /guide/bar/baz.html
   "v-177e1f06": () => import(/* webpackChunkName: "v-177e1f06" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/guide/bar/baz.html.js").then(({ data }) => data),
+  // path: /guide/foo/
+  "v-5d5821d6": () => import(/* webpackChunkName: "v-5d5821d6" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/guide/foo/index.html.js").then(({ data }) => data),
+  // path: /guide/foo/ray.html
+  "v-0b6fc5f8": () => import(/* webpackChunkName: "v-0b6fc5f8" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/guide/foo/ray.html.js").then(({ data }) => data),
   // path: /zh/demo/
   "v-2b64e284": () => import(/* webpackChunkName: "v-2b64e284" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/zh/demo/index.html.js").then(({ data }) => data),
   // path: /zh/demo/disable.html

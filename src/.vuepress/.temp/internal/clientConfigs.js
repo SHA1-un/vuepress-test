@@ -9,7 +9,8 @@ import clientConfig7 from '/home/shaun/Documents/Personal/VuePress/vuepress-test
 import clientConfig8 from '/home/shaun/Documents/Personal/VuePress/vuepress-test/node_modules/.pnpm/vuepress-plugin-copy-code2@2.0.0-beta.170_e7jwb2ulu5orbkux7obq5onfau/node_modules/vuepress-plugin-copy-code2/lib/client/config.js'
 import clientConfig9 from '/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/md-enhance/config.js'
 import clientConfig10 from '/home/shaun/Documents/Personal/VuePress/vuepress-test/node_modules/.pnpm/vuepress-plugin-photo-swipe@2.0.0-beta.170_e7jwb2ulu5orbkux7obq5onfau/node_modules/vuepress-plugin-photo-swipe/lib/client/config.js'
-import clientConfig11 from '/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/theme-hope/config.js'
+import clientConfig11 from '/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pwa2/config.js'
+import clientConfig12 from '/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/theme-hope/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -24,4 +25,5 @@ export const clientConfigs = [
   clientConfig9,
   clientConfig10,
   clientConfig11,
+  clientConfig12,
 ]
