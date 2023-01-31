@@ -11,11 +11,10 @@ export const enSidebar = sidebar({
       children: "structure",
     },
     {
-      text: "Docs",
+      text: "Help",
       icon: "note",
-      prefix: "guide/",
+      prefix: "help/",
       children: "structure",
     },
-    "slides",
   ],
 });

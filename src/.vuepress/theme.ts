@@ -1,20 +1,22 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { enNavbar, } from "./navbar/index.js";
+import { enSidebar, } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "",
+    url: "",
   },
+
+  sidebarSorter: "readme",
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/SHA1-un/vuepress-test",
 
   docsDir: "demo/theme-docs/src",
 
@@ -34,32 +36,11 @@ export default hopeTheme({
         editLink: "Edit this page on GitHub",
       },
     },
-
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
-      navbar: zhNavbar,
-
-      // sidebar
-      sidebar: zhSidebar,
-
-      footer: "默认页脚",
-
-      displayFooter: true,
-
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
   },
 
   encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
     },
   },
 
@@ -140,6 +121,7 @@ export default hopeTheme({
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
+      showInstall: true,
       apple: {
         icon: "/assets/icon/apple-icon-152.png",
         statusBarColor: "black",
@@ -175,9 +157,9 @@ export default hopeTheme({
         ],
         shortcuts: [
           {
-            name: "Demo",
-            short_name: "Demo",
-            url: "/demo/",
+            name: "Home",
+            short_name: "Home",
+            url: "/vuepress-test/",
             icons: [
               {
                 src: "/assets/icon/guide-maskable.png",
