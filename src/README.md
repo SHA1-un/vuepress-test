@@ -10,12 +10,12 @@ actions:
     link: /help/how_to/
     type: primary
 
-  - text: Markdown Help
+  - text: Markdown Help ❓
     link: /help/markdown_help/
     type: primary
 
-  - text: Docs
-    link: /guide/
+  # - text: Docs
+  #   link: /guide/
 
 features:
   - title: SharePoint
@@ -30,8 +30,13 @@ features:
 
   - title: GitHub
     icon: github
-    details: Private organisation containing all of repositories.
+    details: Private organisation containing all of our repositories.
     link: https://github.com/gatekeeper-technology
+
+  - title: JourneyApps Documentation
+    icon: /assets/icon/journeyapps-logo.png
+    details: Official JourneyApps Documentation.
+    link: https://docs.journeyapps.com/reference/get-started/readme
 
 copyright: false
 footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | Made by <a href="https://github.com/SHA1-un" target="_blank">SHA1-un</a>

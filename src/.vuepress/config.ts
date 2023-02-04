@@ -1,4 +1,6 @@
 import { defineUserConfig } from "vuepress";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
+import { pwaPlugin } from "vuepress-plugin-pwa2";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -13,4 +15,16 @@ export default defineUserConfig({
   },
   theme,
   shouldPrefetch: false,
+
+  plugins: [
+     searchProPlugin({
+      // options
+    }),
+
+    pwaPlugin({
+      // your options
+      showInstall: true,
+      update: "force"
+    }),
+  ],
 });

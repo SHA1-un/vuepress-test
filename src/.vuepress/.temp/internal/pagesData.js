@@ -1,16 +1,6 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
-  // path: /demo/
-  "v-1473bf53": () => import(/* webpackChunkName: "v-1473bf53" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/demo/index.html.js").then(({ data }) => data),
-  // path: /demo/disable.html
-  "v-4e65ec78": () => import(/* webpackChunkName: "v-4e65ec78" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/demo/disable.html.js").then(({ data }) => data),
-  // path: /demo/encrypt.html
-  "v-c151bf32": () => import(/* webpackChunkName: "v-c151bf32" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/demo/encrypt.html.js").then(({ data }) => data),
-  // path: /demo/markdown.html
-  "v-438ffe52": () => import(/* webpackChunkName: "v-438ffe52" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/demo/markdown.html.js").then(({ data }) => data),
-  // path: /demo/page.html
-  "v-6e19edb7": () => import(/* webpackChunkName: "v-6e19edb7" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/demo/page.html.js").then(({ data }) => data),
   // path: /lessons_learnt/
   "v-27faad62": () => import(/* webpackChunkName: "v-27faad62" */"/home/shaun/Documents/Personal/VuePress/vuepress-test/src/.vuepress/.temp/pages/lessons_learnt/index.html.js").then(({ data }) => data),
   // path: /help/how_to/
