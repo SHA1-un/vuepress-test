@@ -5,6 +5,9 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/vuepress-test/",
+  head: [
+
+  ],
 
   locales: {
     "/": {
@@ -26,8 +29,7 @@ export default defineUserConfig({
       // your options
       showInstall: true,
       update: "force",
-      
-
+      appendBase: true,
     }),
   ],
 });
