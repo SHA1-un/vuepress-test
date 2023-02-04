@@ -16,6 +16,7 @@ export default defineUserConfig({
   theme,
   shouldPrefetch: false,
 
+
   plugins: [
      searchProPlugin({
       // options
@@ -24,7 +25,9 @@ export default defineUserConfig({
     pwaPlugin({
       // your options
       showInstall: true,
-      update: "force"
+      update: "force",
+      
+
     }),
   ],
 });
