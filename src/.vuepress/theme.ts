@@ -115,73 +115,71 @@ export default hopeTheme({
       vuePlayground: true,
     },
 
-    pwa: true
-
     // uncomment these if you want a pwa
-    // pwa: {
-    //   favicon: "/favicon.ico",
-    //   cacheHTML: true,
-    //   cachePic: true,
-    //   appendBase: true,
-    //   showInstall: true,
-    //   themeColor: "#46bd87",
-    //   apple: {
-    //     icon: "/assets/icon/guide-maskable.png",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/assets/icon/guide-maskable.png",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     name: "vuepress-plugin-pwa",
-    //     shortName: "VuePress2 PWA plugin",
-    //     icons: [
-    //       {
-    //         src: "/assets/icon/guide-maskable.png",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/guide-maskable.png",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/guide-maskable.png",
-    //         sizes: "512x512",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/guide-maskable.png",
-    //         sizes: "192x192",
-    //         type: "image/png",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Home",
-    //         short_name: "Home",
-    //         url: "/vuepress-test/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //     generateSWConfig: {
-    //       globIgnores: [
-    //         // ignore pdfjs
-    //         "assets/lib/pdfjs/**",
-    //       ],
-    //     },
-    //   },
-    // },
+    pwa: {
+      favicon: "/favicon.ico",
+      cacheHTML: true,
+      cachePic: true,
+      appendBase: true,
+      showInstall: true,
+      themeColor: "#46bd87",
+      apple: {
+        icon: "/assets/icon/guide-maskable.png",
+        statusBarColor: "black",
+      },
+      msTile: {
+        image: "/assets/icon/guide-maskable.png",
+        color: "#ffffff",
+      },
+      manifest: {
+        name: "vuepress-plugin-pwa",
+        shortName: "VuePress2 PWA plugin",
+        icons: [
+          {
+            src: "/assets/icon/guide-maskable.png",
+            sizes: "512x512",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/guide-maskable.png",
+            sizes: "192x192",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/guide-maskable.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/guide-maskable.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+        ],
+        shortcuts: [
+          {
+            name: "Home",
+            short_name: "Home",
+            url: "/vuepress-test/",
+            icons: [
+              {
+                src: "/assets/icon/guide-maskable.png",
+                sizes: "192x192",
+                purpose: "maskable",
+                type: "image/png",
+              },
+            ],
+          },
+        ],
+        generateSWConfig: {
+          globIgnores: [
+            // ignore pdfjs
+            "assets/lib/pdfjs/**",
+          ],
+        },
+      },
+    },
   },
 });

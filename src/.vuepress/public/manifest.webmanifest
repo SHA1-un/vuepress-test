@@ -2,7 +2,7 @@
     "name": "VuePress",
     "short_name": "VuePress",
     "description": "Vue-powered Static Site Generator",
-    "start_url": "/index.html",
+    "start_url": "/vuepress-test/",
     "display": "standalone",
     "background_color": "#fff",
     "theme_color": "#3eaf7c",
