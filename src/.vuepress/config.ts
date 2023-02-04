@@ -6,7 +6,8 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/vuepress-test/",
   head: [
-
+    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
 
   locales: {
