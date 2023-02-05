@@ -6,8 +6,56 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/vuepress-test/",
   head: [
-    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ["link",
+              {
+                rel: "icon",
+                href: `/assets/icon/chrome-mask-512.png`,
+                type: "image/png",
+                sizes: "512x512",
+              },
+            ],
+            [
+              "link",
+              {
+                rel: "icon",
+                href: `/assets/icon/chrome-mask-192.png`,
+                type: "image/png",
+                sizes: "512x512",
+              },
+            ],
+            [
+              "link",
+              {
+                rel: "icon",
+                href: `/assets/icon/chrome-512.png`,
+                type: "image/png",
+                sizes: "192x192",
+              },
+            ],
+            [
+              "link",
+              {
+                rel: "icon",
+                href: `/assets/icon/chrome-192.png`,
+                type: "image/png",
+                sizes: "192x192",
+              },
+            ],
+            ["meta", { name: "theme-color", content: "#46bd87" }],
+            [
+              "link",
+              {
+                rel: "apple-touch-icon",
+                href: `/assets/icon/apple-icon-152.png`,
+              },
+            ],
+            [
+              "meta",
+              {
+                name: "apple-mobile-web-app-status-bar-style",
+                content: "black",
+              },
+            ],
   ],
 
   locales: {
@@ -30,27 +78,6 @@ export default defineUserConfig({
       showInstall: true,
       update: "force",
       appendBase: true,
-      manifest: {
-        "name": "VuePress",
-        "short_name": "VuePress",
-        "description": "Vue-powered Static Site Generator",
-        "start_url": "/vuepress-test/",
-        "display": "standalone",
-        "background_color": "#fff",
-        "theme_color": "#3eaf7c",
-        "icons": [
-            {
-                "src": "/assets/icon/guide-maskable.png",
-                "sizes": "192x192",
-                "type": "image/png"
-            },
-            {
-                "src": "/assets/icon/guide-maskable.png",
-                "sizes": "384x384",
-                "type": "image/png"
-            }
-        ]
-      }
     }),
   ],
 });

@@ -53,10 +53,10 @@ export default hopeTheme({
        * Using Giscus
        */
       provider: "Giscus",
-      repo:"SHA1-un/vuepress-test",
-      repoId:"R_kgDOI3Lxew",
-      category:"Announcements",
-      categoryId:"DIC_kwDOI3Lxe84CT5T8",
+      repo: "SHA1-un/vuepress-test",
+      repoId: "R_kgDOI3Lxew",
+      category: "Announcements",
+      categoryId: "DIC_kwDOI3Lxe84CT5T8",
 
       /**
        * Using Twikoo
@@ -67,8 +67,8 @@ export default hopeTheme({
       /**
        * Using Waline
        */
-    //   provider: "Waline",
-    //   serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      //   provider: "Waline",
+      //   serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     },
 
     // Disable features you don’t want here
@@ -117,43 +117,41 @@ export default hopeTheme({
 
     // uncomment these if you want a pwa
     pwa: {
+      update: "hint",
       favicon: "/favicon.ico",
-      cacheHTML: true,
-      cachePic: true,
-      appendBase: true,
-      showInstall: true,
       themeColor: "#46bd87",
+      appendBase: true,
       apple: {
-        icon: "/assets/icon/guide-maskable.png",
+        icon: "/assets/icon/apple-icon-152.png",
         statusBarColor: "black",
       },
       msTile: {
-        image: "/assets/icon/guide-maskable.png",
+        image: "/assets/icon/ms-icon-144.png",
         color: "#ffffff",
       },
       manifest: {
-        name: "vuepress-plugin-pwa",
-        shortName: "VuePress2 PWA plugin",
+        name: 'testing-pwa',
+        short_name: 'test',
         icons: [
           {
-            src: "/assets/icon/guide-maskable.png",
+            src: "/assets/icon/chrome-mask-512.png",
             sizes: "512x512",
             purpose: "maskable",
             type: "image/png",
           },
           {
-            src: "/assets/icon/guide-maskable.png",
+            src: "/assets/icon/chrome-mask-192.png",
             sizes: "192x192",
             purpose: "maskable",
             type: "image/png",
           },
           {
-            src: "/assets/icon/guide-maskable.png",
+            src: "/assets/icon/chrome-512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "/assets/icon/guide-maskable.png",
+            src: "/assets/icon/chrome-192.png",
             sizes: "192x192",
             type: "image/png",
           },
